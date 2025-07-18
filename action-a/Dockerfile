@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 RUN apt-get -y update
 RUN apt-get -y install apt-utils
 RUN apt-get -y install g++
